@@ -15,7 +15,7 @@ function Contact() {
           <div className='links'>
             <a href='https://www.linkedin.com/in/klaudia-kierepka' target='blank' className='link'>LinkedIn</a>
             <a href='https://github.com/klaudia102' target='blank' className='link' >GitHub</a>
-            <a href='public/Klaudia Kierepka-CV.pdf' target='blank' className='link'>Download my CV</a>
+            <a href='./Klaudia Kierepka-CV.pdf' target='blank' className='link'>Download my CV</a>
           </div>
         </div>
         {/* contact input */}
