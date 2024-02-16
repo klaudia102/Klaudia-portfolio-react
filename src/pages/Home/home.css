@@ -1,0 +1,63 @@
+.baner {
+    background-color: rgb(247, 244, 230) !important;
+    align-content: center;
+    font-size: 150% !important;
+    color: rgb(12, 59, 121);
+    padding: 0 !important;
+    margin: 0 !important
+}
+
+.home-content-container {
+    background-color: rgb(247, 244, 230) !important;
+    align-content: center;
+    font-size: 150% !important;
+    color: rgb(12, 59, 121);
+}
+
+.home-content {
+    background-color: rgb(247, 244, 230) !important;
+    font-size: 150% !important;
+    color: rgb(12, 59, 121);
+    padding: 20 !important;
+    margin: 0 !important;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 300px;
+}
+
+p1 {
+    display: flex;
+    justify-content: left;
+}
+
+h1,
+h2,
+p2,
+img {
+    display: flex;
+    justify-content: center;
+}
+
+@media all and (max-width: 1000px) {
+    .jumboCopy {
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .home-content-container {
+        padding: 30px;
+    }
+
+    h2 {
+        justify-content: center;
+    }
+}

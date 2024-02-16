@@ -1,0 +1,72 @@
+.contact-container {
+    background-color: rgb(247, 244, 230) !important;
+    align-content: center;
+    font-size: 150% !important;
+    color: rgb(12, 59, 121);
+    padding: 0 !important;
+    margin: 0 !important;
+    border-radius: 15px;
+}
+
+.contact-info {
+    background-color: rgb(247, 244, 230) !important;
+    align-content: center;
+    font-size: 150% !important;
+    color: rgb(12, 59, 121);
+    padding: 0 !important;
+    margin: 0 !important;
+    border-radius: 15px;
+    border-width: 5px;
+    padding: 10%;
+}
+
+h2 {
+    padding-bottom: 5%;
+    padding-top: 5%;
+    font-size: 50px;
+}
+
+p1,
+p2 {
+    justify-content: center;
+    padding: 2px;
+    font-size: 25px;
+}
+
+.links {
+    margin-bottom: 20px;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.contact-form-container {
+    background-color: rgb(247, 244, 230) !important;
+    align-content: center;
+
+    color: rgb(12, 59, 121);
+    padding: 0 !important;
+    margin: 0 !important;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.label1 {
+    padding-right: 15px !important;
+}
+
+.input1 {
+    color: beige;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

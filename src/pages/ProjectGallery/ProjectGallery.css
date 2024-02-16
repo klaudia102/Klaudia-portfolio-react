@@ -1,0 +1,25 @@
+.container-gallery {
+    background-color: rgb(247, 244, 230) !important;
+    color: rgb(12, 59, 121);
+    padding: 0 !important;
+}
+
+.gallery-space {
+    display: flex;
+    flex-direction: row;
+    justify-content:safe;
+    padding: 10%;
+    padding-top: 0;
+    
+}
+
+img {
+    height: 50%;
+}
+
+@media all and (max-width: 1000px) {
+    .gallery-space {
+        display: flex;
+        flex-direction: column;
+    }
+}
