@@ -16,7 +16,7 @@ function ContactForm() {
                 alert('Message has been sent!')
             }, (error) => {
                 console.log(error.text);
-                alert('Something gone wrong!')
+                alert('Something gone wrong! Try again!')
             });
         e.target.reset()
     };
