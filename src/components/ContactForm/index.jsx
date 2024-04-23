@@ -13,7 +13,7 @@ function ContactForm() {
         e.preventDefault();
         emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target, PUBLIC_KEY)
             .then((result) => {
-                alert('Message gas been sent!')
+                alert('Message has been sent!')
             }, (error) => {
                 console.log(error.text);
                 alert('Something gone wrong!')
@@ -29,7 +29,7 @@ function ContactForm() {
             </div>
             <div className="mb-3 container-email">
                 <label for="exampleFormControlInput1 from_email" className="form-label">email</label>
-                <input type="email" name="from_name" className="form-control email-input" id="exampleFormControlInput1 from_email" required />
+                <input type="email" name="from_email" className="form-control email-input" id="exampleFormControlInput1 from_email" required />
             </div>
             <div class="mb-3 container-massage" >
                 <label for="exampleFormControlTextarea1 message" className="form-label">message</label> <br />
